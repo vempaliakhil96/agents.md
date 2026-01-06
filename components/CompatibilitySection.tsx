@@ -128,6 +128,12 @@ const agents: AgentEntry[] = [
     url: "https://uipath.github.io/uipath-python",
     imageSrc: "/logos/uipath.svg",
   },
+  {
+    name: "Rovo Dev CLI",
+    url: "https://support.atlassian.com/rovo/docs/use-rovo-dev-cli/",
+    from: "Atlassian",
+    imageSrc: "/logos/rovodev.svg",
+  },
 ];
 
 const shuffleAgents = (items: AgentEntry[]) => {
